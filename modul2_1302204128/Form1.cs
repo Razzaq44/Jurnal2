@@ -52,7 +52,7 @@ namespace modul2_1302204128
         private void button10_MouseClick(object sender, MouseEventArgs e)
         {
             this.textBox1.Text = "";
-            input += this.button4.Text;
+            input += this.button10.Text;
             this.textBox1.Text += input;
         }
 
@@ -93,6 +93,7 @@ namespace modul2_1302204128
 
         private void button12_MouseClick(object sender, MouseEventArgs e)
         {
+            //BUTTON SAMA-DENGAN (RESULT)
             angka2 = input;
             int num1, num2;
             int.TryParse(angka1, out num1);
@@ -112,7 +113,7 @@ namespace modul2_1302204128
         private void button8_MouseClick(object sender, MouseEventArgs e)
         {
             this.textBox1.Text = "";
-            input += this.button8.Text + " ";
+            input += this.button8.Text;
             this.textBox1.Text += input;
         }
     }
