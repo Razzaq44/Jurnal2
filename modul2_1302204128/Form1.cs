@@ -25,9 +25,9 @@ namespace modul2_1302204128
 
         private void button1_MouseClick(object sender, MouseEventArgs e)
         {
-            this.label1.Text = "";
+            this.textBox1.Text = "";
             input += this.button1.Text;
-            this.label1.Text += input;
+            this.textBox1.Text += input;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -37,58 +37,58 @@ namespace modul2_1302204128
 
         private void button2_MouseClick(object sender, MouseEventArgs e)
         {
-            this.label1.Text = "";
+            this.textBox1.Text = "";
             input += this.button2.Text;
-            this.label1.Text += input;
+            this.textBox1.Text += input;
         }
 
         private void button3_MouseClick(object sender, MouseEventArgs e)
         {
-            this.label1.Text = "";
+            this.textBox1.Text = "";
             input += this.button3.Text;
-            this.label1.Text += input;
+            this.textBox1.Text += input;
         }
 
         private void button10_MouseClick(object sender, MouseEventArgs e)
         {
-            this.label1.Text = "";
+            this.textBox1.Text = "";
             input += this.button4.Text;
-            this.label1.Text += input;
+            this.textBox1.Text += input;
         }
 
         private void button4_MouseClick(object sender, MouseEventArgs e)
         {
-            this.label1.Text = "";
+            this.textBox1.Text = "";
             input += this.button4.Text;
-            this.label1.Text += input;
+            this.textBox1.Text += input;
         }
 
         private void button5_MouseClick(object sender, MouseEventArgs e)
         {
-            this.label1.Text = "";
+            this.textBox1.Text = "";
             input += this.button5.Text;
-            this.label1.Text += input;
+            this.textBox1.Text += input;
         }
 
         private void button6_MouseClick(object sender, MouseEventArgs e)
         {
-            this.label1.Text = "";
+            this.textBox1.Text = "";
             input += this.button6.Text;
-            this.label1.Text += input;
+            this.textBox1.Text += input;
         }
 
         private void button11_MouseClick(object sender, MouseEventArgs e)
         {
-            this.label1.Text = "";
+            this.textBox1.Text = "";
             input += this.button11.Text;
-            this.label1.Text += input;
+            this.textBox1.Text += input;
         }
 
         private void button7_MouseClick(object sender, MouseEventArgs e)
         {
-            this.label1.Text = "";
+            this.textBox1.Text = "";
             input += this.button7.Text;
-            this.label1.Text += input;
+            this.textBox1.Text += input;
         }
 
         private void button12_MouseClick(object sender, MouseEventArgs e)
@@ -99,7 +99,7 @@ namespace modul2_1302204128
             int.TryParse(angka2, out num2);
 
             hasil = num1 + num2;
-            label1.Text = hasil.ToString();
+            textBox1.Text = hasil.ToString();
         }
 
         private void button9_MouseClick(object sender, MouseEventArgs e)
@@ -111,9 +111,9 @@ namespace modul2_1302204128
 
         private void button8_MouseClick(object sender, MouseEventArgs e)
         {
-            this.label1.Text = "";
+            this.textBox1.Text = "";
             input += this.button8.Text + " ";
-            this.label1.Text += input;
+            this.textBox1.Text += input;
         }
     }
 }
